@@ -1,0 +1,16 @@
+nav {
+    color: rgb(146, 17, 17);
+}
+
+footer {
+    width: 100%;
+    margin: 0;
+}
+
+footer .h3 {
+    color: rgb(146, 17, 17);
+}
+
+span .fa {
+    padding: 0px 10px;
+}

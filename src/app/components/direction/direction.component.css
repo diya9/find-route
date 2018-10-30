@@ -1,0 +1,29 @@
+    .wrapper {
+        display: flex;
+    }
+    
+    #sidebar {
+        min-width: 100px;
+        height: 100vh;
+        background: #151719;
+    }
+    
+    #sidebar ul li {
+        color: rgba(230, 230, 230, 0.9);
+        list-style: none;
+        padding: 20px 15px;
+        border-bottom: 1px solid rgba(100, 100, 100, 0.4);
+    }
+    
+    #overviewBar {
+        border-left: 4px solid grey;
+        background: #477baf;
+        padding: 10px 15px;
+        color: white;
+    }
+    
+    #searchBar {
+        padding: 10px 15px;
+        background: #477baf;
+        border-left: 4px solid grey;
+    }

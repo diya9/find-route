@@ -1,0 +1,19 @@
+<div class="wrapper">
+    <div class="map">
+        <div #gmap style="width:100%;height:400px"></div>
+    </div>
+
+    <div class="jumbotron">
+        <h2 class="text-center">Trip Garage</h2>
+        <hr>
+        <ul>
+            <li>Build your road trips</li>
+            <li>Plan collaboratively with your friends</li>
+            <li>Publish trips to help fellow roadtrippers</li>
+        </ul>
+        <label for="from" class="col-md-3">From </label><input class="col-md-9" type="text" name="origin" [(ngModel)]="origin" id="from"><br>
+        <label for="to" class="col-md-3">To </label><input class="col-md-9" type="text" name="destination" [(ngModel)]="destination" id="to"><br>
+        <hr>
+        <button class="btn btn-success" (click)="setDirection()">Start Planning</button>
+    </div>
+</div>
